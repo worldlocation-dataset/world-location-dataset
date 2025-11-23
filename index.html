@@ -285,7 +285,7 @@
         <div class="grid" style="gap:16px;">
           <div class="card" style="box-shadow:none; padding:12px; margin:0;">
             <h3>JavaScript (fetch countries)</h3>
-            <pre><code>fetch('https://your-domain.com/data/countries.json')
+            <pre><code>fetch('https://worldlocation-dataset.github.io/world-location-dataset/data/countries.json')
   .then(res =&gt; res.json())
   .then(countries =&gt; {
     console.log('Total countries:', countries.length);
@@ -295,7 +295,7 @@
           <div class="card" style="box-shadow:none; padding:12px; margin:0;">
             <h3>JavaScript (fetch cities for one country)</h3>
             <pre><code>const iso2 = 'IN'; // India
-fetch(`https://your-domain.com/data/cities/${iso2}.json`)
+fetch(`https://worldlocation-dataset.github.io/world-location-dataset/data/cities/${iso2}.json`)
   .then(res =&gt; res.json())
   .then(cities =&gt; {
     console.log(`Cities in ${iso2}:`, cities.length);
@@ -306,7 +306,7 @@ fetch(`https://your-domain.com/data/cities/${iso2}.json`)
             <h3>Python (requests)</h3>
             <pre><code>import requests
 
-url = "https://your-domain.com/data/cities/US.json"
+url = "https://worldlocation-dataset.github.io/world-location-dataset/data/cities/US.json"
 resp = requests.get(url)
 cities = resp.json()
 print("Cities in US:", len(cities))</code></pre>
