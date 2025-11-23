@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Chennai",
+    "country_iso2": "IN",
+    "state": "Tamil Nadu",
+    "is_capital": false,
+    "latitude": 13.0827,
+    "longitude": 80.2707,
+    "population": 7090000
+  },
+  {
+    "name": "New Delhi",
+    "country_iso2": "IN",
+    "state": "Delhi",
+    "is_capital": true,
+    "latitude": 28.6139,
+    "longitude": 77.2090,
+    "population": 16787941
+  },
+  {
+    "name": "New York City",
+    "country_iso2": "US",
+    "state": "New York",
+    "is_capital": false,
+    "latitude": 40.7128,
+    "longitude": -74.0060,
+    "population": 8399000
+  }
+]

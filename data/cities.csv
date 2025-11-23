@@ -1,0 +1,4 @@
+name,country_iso2,state,is_capital,latitude,longitude,population
+Chennai,IN,Tamil Nadu,false,13.0827,80.2707,7090000
+New Delhi,IN,Delhi,true,28.6139,77.2090,16787941
+New York City,US,New York,false,40.7128,-74.0060,8399000

@@ -1,0 +1,2412 @@
+[
+  {
+    "iso2": "AF",
+    "iso3": "AFG",
+    "name": "Afghanistan",
+    "capital": "Kabul",
+    "region": "",
+    "subregion": "",
+    "latitude": 34.5253,
+    "longitude": 69.1783
+  },
+  {
+    "iso2": "AL",
+    "iso3": "ALB",
+    "name": "Albania",
+    "capital": "Tirana",
+    "region": "",
+    "subregion": "",
+    "latitude": 41.3272,
+    "longitude": 19.8186
+  },
+  {
+    "iso2": "DZ",
+    "iso3": "DZA",
+    "name": "Algeria",
+    "capital": "Algiers",
+    "region": "",
+    "subregion": "",
+    "latitude": 36.7325,
+    "longitude": 3.0872
+  },
+  {
+    "iso2": "AS",
+    "iso3": "ASM",
+    "name": "American Samoa",
+    "capital": "Pago Pago",
+    "region": "",
+    "subregion": "",
+    "latitude": -14.274,
+    "longitude": -170.7046
+  },
+  {
+    "iso2": "AD",
+    "iso3": "AND",
+    "name": "Andorra",
+    "capital": "Andorra la Vella",
+    "region": "",
+    "subregion": "",
+    "latitude": 42.5,
+    "longitude": 1.5
+  },
+  {
+    "iso2": "AO",
+    "iso3": "AGO",
+    "name": "Angola",
+    "capital": "Luanda",
+    "region": "",
+    "subregion": "",
+    "latitude": -8.8383,
+    "longitude": 13.2344
+  },
+  {
+    "iso2": "AI",
+    "iso3": "AIA",
+    "name": "Anguilla",
+    "capital": "The Valley",
+    "region": "",
+    "subregion": "",
+    "latitude": 18.2208,
+    "longitude": -63.0517
+  },
+  {
+    "iso2": "AG",
+    "iso3": "ATG",
+    "name": "Antigua and Barbuda",
+    "capital": "Saint John’s",
+    "region": "",
+    "subregion": "",
+    "latitude": 17.1167,
+    "longitude": -61.85
+  },
+  {
+    "iso2": "AR",
+    "iso3": "ARG",
+    "name": "Argentina",
+    "capital": "Buenos Aires",
+    "region": "",
+    "subregion": "",
+    "latitude": -34.6036,
+    "longitude": -58.3814
+  },
+  {
+    "iso2": "AM",
+    "iso3": "ARM",
+    "name": "Armenia",
+    "capital": "Yerevan",
+    "region": "",
+    "subregion": "",
+    "latitude": 40.1814,
+    "longitude": 44.5144
+  },
+  {
+    "iso2": "AW",
+    "iso3": "ABW",
+    "name": "Aruba",
+    "capital": "Oranjestad",
+    "region": "",
+    "subregion": "",
+    "latitude": 12.5186,
+    "longitude": -70.0358
+  },
+  {
+    "iso2": "AU",
+    "iso3": "AUS",
+    "name": "Australia",
+    "capital": "Canberra",
+    "region": "",
+    "subregion": "",
+    "latitude": -35.2931,
+    "longitude": 149.1269
+  },
+  {
+    "iso2": "AT",
+    "iso3": "AUT",
+    "name": "Austria",
+    "capital": "Vienna",
+    "region": "",
+    "subregion": "",
+    "latitude": 48.2083,
+    "longitude": 16.3725
+  },
+  {
+    "iso2": "AZ",
+    "iso3": "AZE",
+    "name": "Azerbaijan",
+    "capital": "Baku",
+    "region": "",
+    "subregion": "",
+    "latitude": 40.3667,
+    "longitude": 49.8352
+  },
+  {
+    "iso2": "BS",
+    "iso3": "BHS",
+    "name": "Bahamas, The",
+    "capital": "Nassau",
+    "region": "",
+    "subregion": "",
+    "latitude": 25.0442,
+    "longitude": -77.3503
+  },
+  {
+    "iso2": "BH",
+    "iso3": "BHR",
+    "name": "Bahrain",
+    "capital": "Manama",
+    "region": "",
+    "subregion": "",
+    "latitude": 26.2233,
+    "longitude": 50.5875
+  },
+  {
+    "iso2": "BD",
+    "iso3": "BGD",
+    "name": "Bangladesh",
+    "capital": "Dhaka",
+    "region": "",
+    "subregion": "",
+    "latitude": 23.7289,
+    "longitude": 90.3944
+  },
+  {
+    "iso2": "BB",
+    "iso3": "BRB",
+    "name": "Barbados",
+    "capital": "Bridgetown",
+    "region": "",
+    "subregion": "",
+    "latitude": 13.0969,
+    "longitude": -59.6131
+  },
+  {
+    "iso2": "BY",
+    "iso3": "BLR",
+    "name": "Belarus",
+    "capital": "Minsk",
+    "region": "",
+    "subregion": "",
+    "latitude": 53.9006,
+    "longitude": 27.5586
+  },
+  {
+    "iso2": "BE",
+    "iso3": "BEL",
+    "name": "Belgium",
+    "capital": "Brussels",
+    "region": "",
+    "subregion": "",
+    "latitude": 50.8467,
+    "longitude": 4.3525
+  },
+  {
+    "iso2": "BZ",
+    "iso3": "BLZ",
+    "name": "Belize",
+    "capital": "Belmopan",
+    "region": "",
+    "subregion": "",
+    "latitude": 17.2522,
+    "longitude": -88.7639
+  },
+  {
+    "iso2": "BJ",
+    "iso3": "BEN",
+    "name": "Benin",
+    "capital": "Porto-Novo",
+    "region": "",
+    "subregion": "",
+    "latitude": 6.4972,
+    "longitude": 2.605
+  },
+  {
+    "iso2": "BM",
+    "iso3": "BMU",
+    "name": "Bermuda",
+    "capital": "Hamilton",
+    "region": "",
+    "subregion": "",
+    "latitude": 32.2942,
+    "longitude": -64.7819
+  },
+  {
+    "iso2": "BT",
+    "iso3": "BTN",
+    "name": "Bhutan",
+    "capital": "Thimphu",
+    "region": "",
+    "subregion": "",
+    "latitude": 27.4722,
+    "longitude": 89.6361
+  },
+  {
+    "iso2": "BO",
+    "iso3": "BOL",
+    "name": "Bolivia",
+    "capital": "Sucre",
+    "region": "",
+    "subregion": "",
+    "latitude": -19.0475,
+    "longitude": -65.26
+  },
+  {
+    "iso2": "BQ",
+    "iso3": "BES",
+    "name": "Bonaire, Sint Eustatius, and Saba",
+    "capital": "",
+    "region": "",
+    "subregion": "",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "iso2": "BA",
+    "iso3": "BIH",
+    "name": "Bosnia and Herzegovina",
+    "capital": "Sarajevo",
+    "region": "",
+    "subregion": "",
+    "latitude": 43.8564,
+    "longitude": 18.4131
+  },
+  {
+    "iso2": "BW",
+    "iso3": "BWA",
+    "name": "Botswana",
+    "capital": "Gaborone",
+    "region": "",
+    "subregion": "",
+    "latitude": -24.6569,
+    "longitude": 25.9086
+  },
+  {
+    "iso2": "BR",
+    "iso3": "BRA",
+    "name": "Brazil",
+    "capital": "Brasília",
+    "region": "",
+    "subregion": "",
+    "latitude": -15.7939,
+    "longitude": -47.8828
+  },
+  {
+    "iso2": "BN",
+    "iso3": "BRN",
+    "name": "Brunei",
+    "capital": "Bandar Seri Begawan",
+    "region": "",
+    "subregion": "",
+    "latitude": 4.8903,
+    "longitude": 114.9422
+  },
+  {
+    "iso2": "BG",
+    "iso3": "BGR",
+    "name": "Bulgaria",
+    "capital": "Sofia",
+    "region": "",
+    "subregion": "",
+    "latitude": 42.6979,
+    "longitude": 23.3217
+  },
+  {
+    "iso2": "BF",
+    "iso3": "BFA",
+    "name": "Burkina Faso",
+    "capital": "Ouagadougou",
+    "region": "",
+    "subregion": "",
+    "latitude": 12.3686,
+    "longitude": -1.5275
+  },
+  {
+    "iso2": "MM",
+    "iso3": "MMR",
+    "name": "Burma",
+    "capital": "Nay Pyi Taw",
+    "region": "",
+    "subregion": "",
+    "latitude": 19.7475,
+    "longitude": 96.115
+  },
+  {
+    "iso2": "BI",
+    "iso3": "BDI",
+    "name": "Burundi",
+    "capital": "Gitega",
+    "region": "",
+    "subregion": "",
+    "latitude": -3.4283,
+    "longitude": 29.925
+  },
+  {
+    "iso2": "CV",
+    "iso3": "CPV",
+    "name": "Cabo Verde",
+    "capital": "Praia",
+    "region": "",
+    "subregion": "",
+    "latitude": 14.9177,
+    "longitude": -23.5092
+  },
+  {
+    "iso2": "KH",
+    "iso3": "KHM",
+    "name": "Cambodia",
+    "capital": "Phnom Penh",
+    "region": "",
+    "subregion": "",
+    "latitude": 11.5696,
+    "longitude": 104.921
+  },
+  {
+    "iso2": "CM",
+    "iso3": "CMR",
+    "name": "Cameroon",
+    "capital": "Yaoundé",
+    "region": "",
+    "subregion": "",
+    "latitude": 3.8667,
+    "longitude": 11.5167
+  },
+  {
+    "iso2": "CA",
+    "iso3": "CAN",
+    "name": "Canada",
+    "capital": "Ottawa",
+    "region": "",
+    "subregion": "",
+    "latitude": 45.4247,
+    "longitude": -75.695
+  },
+  {
+    "iso2": "KY",
+    "iso3": "CYM",
+    "name": "Cayman Islands",
+    "capital": "George Town",
+    "region": "",
+    "subregion": "",
+    "latitude": 19.295,
+    "longitude": -81.3811
+  },
+  {
+    "iso2": "CF",
+    "iso3": "CAF",
+    "name": "Central African Republic",
+    "capital": "Bangui",
+    "region": "",
+    "subregion": "",
+    "latitude": 4.3733,
+    "longitude": 18.5628
+  },
+  {
+    "iso2": "TD",
+    "iso3": "TCD",
+    "name": "Chad",
+    "capital": "N’Djamena",
+    "region": "",
+    "subregion": "",
+    "latitude": 12.1053,
+    "longitude": 15.0447
+  },
+  {
+    "iso2": "CL",
+    "iso3": "CHL",
+    "name": "Chile",
+    "capital": "Santiago",
+    "region": "",
+    "subregion": "",
+    "latitude": -33.4372,
+    "longitude": -70.6506
+  },
+  {
+    "iso2": "CN",
+    "iso3": "CHN",
+    "name": "China",
+    "capital": "Beijing",
+    "region": "",
+    "subregion": "",
+    "latitude": 39.9067,
+    "longitude": 116.3975
+  },
+  {
+    "iso2": "CX",
+    "iso3": "CXR",
+    "name": "Christmas Island",
+    "capital": "Flying Fish Cove",
+    "region": "",
+    "subregion": "",
+    "latitude": -10.4261,
+    "longitude": 105.6728
+  },
+  {
+    "iso2": "CO",
+    "iso3": "COL",
+    "name": "Colombia",
+    "capital": "Bogotá",
+    "region": "",
+    "subregion": "",
+    "latitude": 4.7111,
+    "longitude": -74.0722
+  },
+  {
+    "iso2": "KM",
+    "iso3": "COM",
+    "name": "Comoros",
+    "capital": "Moroni",
+    "region": "",
+    "subregion": "",
+    "latitude": -11.699,
+    "longitude": 43.256
+  },
+  {
+    "iso2": "CG",
+    "iso3": "COG",
+    "name": "Congo (Brazzaville)",
+    "capital": "Brazzaville",
+    "region": "",
+    "subregion": "",
+    "latitude": -4.2667,
+    "longitude": 15.2667
+  },
+  {
+    "iso2": "CD",
+    "iso3": "COD",
+    "name": "Congo (Kinshasa)",
+    "capital": "Kinshasa",
+    "region": "",
+    "subregion": "",
+    "latitude": -4.3219,
+    "longitude": 15.3119
+  },
+  {
+    "iso2": "CK",
+    "iso3": "COK",
+    "name": "Cook Islands",
+    "capital": "Avarua",
+    "region": "",
+    "subregion": "",
+    "latitude": -21.207,
+    "longitude": -159.771
+  },
+  {
+    "iso2": "CR",
+    "iso3": "CRI",
+    "name": "Costa Rica",
+    "capital": "San José",
+    "region": "",
+    "subregion": "",
+    "latitude": 9.9325,
+    "longitude": -84.08
+  },
+  {
+    "iso2": "HR",
+    "iso3": "HRV",
+    "name": "Croatia",
+    "capital": "Zagreb",
+    "region": "",
+    "subregion": "",
+    "latitude": 45.8131,
+    "longitude": 15.9772
+  },
+  {
+    "iso2": "CU",
+    "iso3": "CUB",
+    "name": "Cuba",
+    "capital": "Havana",
+    "region": "",
+    "subregion": "",
+    "latitude": 23.1367,
+    "longitude": -82.3589
+  },
+  {
+    "iso2": "CW",
+    "iso3": "CUW",
+    "name": "Curaçao",
+    "capital": "Willemstad",
+    "region": "",
+    "subregion": "",
+    "latitude": 12.108,
+    "longitude": -68.935
+  },
+  {
+    "iso2": "CY",
+    "iso3": "CYP",
+    "name": "Cyprus",
+    "capital": "Nicosia",
+    "region": "",
+    "subregion": "",
+    "latitude": 35.1725,
+    "longitude": 33.365
+  },
+  {
+    "iso2": "CZ",
+    "iso3": "CZE",
+    "name": "Czechia",
+    "capital": "Prague",
+    "region": "",
+    "subregion": "",
+    "latitude": 50.0875,
+    "longitude": 14.4214
+  },
+  {
+    "iso2": "CI",
+    "iso3": "CIV",
+    "name": "Côte d’Ivoire",
+    "capital": "Yamoussoukro",
+    "region": "",
+    "subregion": "",
+    "latitude": 6.8161,
+    "longitude": -5.2742
+  },
+  {
+    "iso2": "DK",
+    "iso3": "DNK",
+    "name": "Denmark",
+    "capital": "Copenhagen",
+    "region": "",
+    "subregion": "",
+    "latitude": 55.6805,
+    "longitude": 12.5615
+  },
+  {
+    "iso2": "DJ",
+    "iso3": "DJI",
+    "name": "Djibouti",
+    "capital": "Djibouti",
+    "region": "",
+    "subregion": "",
+    "latitude": 11.5944,
+    "longitude": 43.1481
+  },
+  {
+    "iso2": "DM",
+    "iso3": "DMA",
+    "name": "Dominica",
+    "capital": "Roseau",
+    "region": "",
+    "subregion": "",
+    "latitude": 15.3014,
+    "longitude": -61.3883
+  },
+  {
+    "iso2": "DO",
+    "iso3": "DOM",
+    "name": "Dominican Republic",
+    "capital": "Santo Domingo",
+    "region": "",
+    "subregion": "",
+    "latitude": 18.4764,
+    "longitude": -69.8933
+  },
+  {
+    "iso2": "EC",
+    "iso3": "ECU",
+    "name": "Ecuador",
+    "capital": "Quito",
+    "region": "",
+    "subregion": "",
+    "latitude": -0.22,
+    "longitude": -78.5125
+  },
+  {
+    "iso2": "EG",
+    "iso3": "EGY",
+    "name": "Egypt",
+    "capital": "Cairo",
+    "region": "",
+    "subregion": "",
+    "latitude": 30.0444,
+    "longitude": 31.2358
+  },
+  {
+    "iso2": "SV",
+    "iso3": "SLV",
+    "name": "El Salvador",
+    "capital": "San Salvador",
+    "region": "",
+    "subregion": "",
+    "latitude": 13.6989,
+    "longitude": -89.1914
+  },
+  {
+    "iso2": "GQ",
+    "iso3": "GNQ",
+    "name": "Equatorial Guinea",
+    "capital": "Malabo",
+    "region": "",
+    "subregion": "",
+    "latitude": 3.7456,
+    "longitude": 8.7744
+  },
+  {
+    "iso2": "ER",
+    "iso3": "ERI",
+    "name": "Eritrea",
+    "capital": "Asmara",
+    "region": "",
+    "subregion": "",
+    "latitude": 15.3358,
+    "longitude": 38.9411
+  },
+  {
+    "iso2": "EE",
+    "iso3": "EST",
+    "name": "Estonia",
+    "capital": "Tallinn",
+    "region": "",
+    "subregion": "",
+    "latitude": 59.4372,
+    "longitude": 24.7453
+  },
+  {
+    "iso2": "SZ",
+    "iso3": "SWZ",
+    "name": "Eswatini",
+    "capital": "Lobamba",
+    "region": "",
+    "subregion": "",
+    "latitude": -26.4667,
+    "longitude": 31.2
+  },
+  {
+    "iso2": "ET",
+    "iso3": "ETH",
+    "name": "Ethiopia",
+    "capital": "Addis Ababa",
+    "region": "",
+    "subregion": "",
+    "latitude": 9.03,
+    "longitude": 38.74
+  },
+  {
+    "iso2": "FK",
+    "iso3": "FLK",
+    "name": "Falkland Islands (Islas Malvinas)",
+    "capital": "Stanley",
+    "region": "",
+    "subregion": "",
+    "latitude": -51.7,
+    "longitude": -57.85
+  },
+  {
+    "iso2": "FO",
+    "iso3": "FRO",
+    "name": "Faroe Islands",
+    "capital": "Tórshavn",
+    "region": "",
+    "subregion": "",
+    "latitude": 62.0,
+    "longitude": -6.7833
+  },
+  {
+    "iso2": "FJ",
+    "iso3": "FJI",
+    "name": "Fiji",
+    "capital": "Suva",
+    "region": "",
+    "subregion": "",
+    "latitude": -18.1333,
+    "longitude": 178.4333
+  },
+  {
+    "iso2": "FI",
+    "iso3": "FIN",
+    "name": "Finland",
+    "capital": "Helsinki",
+    "region": "",
+    "subregion": "",
+    "latitude": 60.1708,
+    "longitude": 24.9375
+  },
+  {
+    "iso2": "FR",
+    "iso3": "FRA",
+    "name": "France",
+    "capital": "Paris",
+    "region": "",
+    "subregion": "",
+    "latitude": 48.8567,
+    "longitude": 2.3522
+  },
+  {
+    "iso2": "GF",
+    "iso3": "GUF",
+    "name": "French Guiana",
+    "capital": "Cayenne",
+    "region": "",
+    "subregion": "",
+    "latitude": 4.933,
+    "longitude": -52.33
+  },
+  {
+    "iso2": "PF",
+    "iso3": "PYF",
+    "name": "French Polynesia",
+    "capital": "Papeete",
+    "region": "",
+    "subregion": "",
+    "latitude": -17.5334,
+    "longitude": -149.5667
+  },
+  {
+    "iso2": "GA",
+    "iso3": "GAB",
+    "name": "Gabon",
+    "capital": "Libreville",
+    "region": "",
+    "subregion": "",
+    "latitude": 0.3901,
+    "longitude": 9.4544
+  },
+  {
+    "iso2": "GM",
+    "iso3": "GMB",
+    "name": "Gambia, The",
+    "capital": "Banjul",
+    "region": "",
+    "subregion": "",
+    "latitude": 13.4581,
+    "longitude": -16.5786
+  },
+  {
+    "iso2": "XG",
+    "iso3": "XGZ",
+    "name": "Gaza Strip",
+    "capital": "Gaza",
+    "region": "",
+    "subregion": "",
+    "latitude": 31.5069,
+    "longitude": 34.456
+  },
+  {
+    "iso2": "GE",
+    "iso3": "GEO",
+    "name": "Georgia",
+    "capital": "Tbilisi",
+    "region": "",
+    "subregion": "",
+    "latitude": 41.7225,
+    "longitude": 44.7925
+  },
+  {
+    "iso2": "DE",
+    "iso3": "DEU",
+    "name": "Germany",
+    "capital": "Berlin",
+    "region": "",
+    "subregion": "",
+    "latitude": 52.52,
+    "longitude": 13.405
+  },
+  {
+    "iso2": "GH",
+    "iso3": "GHA",
+    "name": "Ghana",
+    "capital": "Accra",
+    "region": "",
+    "subregion": "",
+    "latitude": 5.5461,
+    "longitude": -0.2067
+  },
+  {
+    "iso2": "GI",
+    "iso3": "GIB",
+    "name": "Gibraltar",
+    "capital": "Gibraltar",
+    "region": "",
+    "subregion": "",
+    "latitude": 36.14,
+    "longitude": -5.35
+  },
+  {
+    "iso2": "GR",
+    "iso3": "GRC",
+    "name": "Greece",
+    "capital": "Athens",
+    "region": "",
+    "subregion": "",
+    "latitude": 37.9842,
+    "longitude": 23.7281
+  },
+  {
+    "iso2": "GL",
+    "iso3": "GRL",
+    "name": "Greenland",
+    "capital": "Nuuk",
+    "region": "",
+    "subregion": "",
+    "latitude": 64.1767,
+    "longitude": -51.7361
+  },
+  {
+    "iso2": "GD",
+    "iso3": "GRD",
+    "name": "Grenada",
+    "capital": "Saint George’s",
+    "region": "",
+    "subregion": "",
+    "latitude": 12.05,
+    "longitude": -61.75
+  },
+  {
+    "iso2": "GP",
+    "iso3": "GLP",
+    "name": "Guadeloupe",
+    "capital": "Basse-Terre",
+    "region": "",
+    "subregion": "",
+    "latitude": 16.0104,
+    "longitude": -61.7055
+  },
+  {
+    "iso2": "GU",
+    "iso3": "GUM",
+    "name": "Guam",
+    "capital": "Hagåtña",
+    "region": "",
+    "subregion": "",
+    "latitude": 13.4745,
+    "longitude": 144.7504
+  },
+  {
+    "iso2": "GT",
+    "iso3": "GTM",
+    "name": "Guatemala",
+    "capital": "Guatemala City",
+    "region": "",
+    "subregion": "",
+    "latitude": 14.6417,
+    "longitude": -90.5133
+  },
+  {
+    "iso2": "GG",
+    "iso3": "GGY",
+    "name": "Guernsey",
+    "capital": "Saint Peter Port",
+    "region": "",
+    "subregion": "",
+    "latitude": 49.4555,
+    "longitude": -2.5368
+  },
+  {
+    "iso2": "GN",
+    "iso3": "GIN",
+    "name": "Guinea",
+    "capital": "Conakry",
+    "region": "",
+    "subregion": "",
+    "latitude": 9.5092,
+    "longitude": -13.7122
+  },
+  {
+    "iso2": "GW",
+    "iso3": "GNB",
+    "name": "Guinea-Bissau",
+    "capital": "Bissau",
+    "region": "",
+    "subregion": "",
+    "latitude": 11.85,
+    "longitude": -15.5667
+  },
+  {
+    "iso2": "GY",
+    "iso3": "GUY",
+    "name": "Guyana",
+    "capital": "Georgetown",
+    "region": "",
+    "subregion": "",
+    "latitude": 6.8011,
+    "longitude": -58.155
+  },
+  {
+    "iso2": "HT",
+    "iso3": "HTI",
+    "name": "Haiti",
+    "capital": "Port-au-Prince",
+    "region": "",
+    "subregion": "",
+    "latitude": 18.5425,
+    "longitude": -72.3386
+  },
+  {
+    "iso2": "HN",
+    "iso3": "HND",
+    "name": "Honduras",
+    "capital": "Tegucigalpa",
+    "region": "",
+    "subregion": "",
+    "latitude": 14.1057,
+    "longitude": -87.204
+  },
+  {
+    "iso2": "HK",
+    "iso3": "HKG",
+    "name": "Hong Kong",
+    "capital": "Hong Kong",
+    "region": "",
+    "subregion": "",
+    "latitude": 22.3,
+    "longitude": 114.2
+  },
+  {
+    "iso2": "HU",
+    "iso3": "HUN",
+    "name": "Hungary",
+    "capital": "Budapest",
+    "region": "",
+    "subregion": "",
+    "latitude": 47.4983,
+    "longitude": 19.0408
+  },
+  {
+    "iso2": "IS",
+    "iso3": "ISL",
+    "name": "Iceland",
+    "capital": "Reykjavík",
+    "region": "",
+    "subregion": "",
+    "latitude": 64.1458,
+    "longitude": -21.9425
+  },
+  {
+    "iso2": "IN",
+    "iso3": "IND",
+    "name": "India",
+    "capital": "New Delhi",
+    "region": "",
+    "subregion": "",
+    "latitude": 28.6139,
+    "longitude": 77.2089
+  },
+  {
+    "iso2": "ID",
+    "iso3": "IDN",
+    "name": "Indonesia",
+    "capital": "Jakarta",
+    "region": "",
+    "subregion": "",
+    "latitude": -6.175,
+    "longitude": 106.8275
+  },
+  {
+    "iso2": "IR",
+    "iso3": "IRN",
+    "name": "Iran",
+    "capital": "Tehran",
+    "region": "",
+    "subregion": "",
+    "latitude": 35.6889,
+    "longitude": 51.3897
+  },
+  {
+    "iso2": "IQ",
+    "iso3": "IRQ",
+    "name": "Iraq",
+    "capital": "Baghdad",
+    "region": "",
+    "subregion": "",
+    "latitude": 33.3153,
+    "longitude": 44.3661
+  },
+  {
+    "iso2": "IE",
+    "iso3": "IRL",
+    "name": "Ireland",
+    "capital": "Dublin",
+    "region": "",
+    "subregion": "",
+    "latitude": 53.3497,
+    "longitude": -6.2603
+  },
+  {
+    "iso2": "IM",
+    "iso3": "IMN",
+    "name": "Isle of Man",
+    "capital": "Douglas",
+    "region": "",
+    "subregion": "",
+    "latitude": 54.15,
+    "longitude": -4.4775
+  },
+  {
+    "iso2": "IL",
+    "iso3": "ISR",
+    "name": "Israel",
+    "capital": "Jerusalem",
+    "region": "",
+    "subregion": "",
+    "latitude": 31.7789,
+    "longitude": 35.2256
+  },
+  {
+    "iso2": "IT",
+    "iso3": "ITA",
+    "name": "Italy",
+    "capital": "Rome",
+    "region": "",
+    "subregion": "",
+    "latitude": 41.8931,
+    "longitude": 12.4828
+  },
+  {
+    "iso2": "JM",
+    "iso3": "JAM",
+    "name": "Jamaica",
+    "capital": "Kingston",
+    "region": "",
+    "subregion": "",
+    "latitude": 17.9714,
+    "longitude": -76.7931
+  },
+  {
+    "iso2": "JP",
+    "iso3": "JPN",
+    "name": "Japan",
+    "capital": "Tokyo",
+    "region": "",
+    "subregion": "",
+    "latitude": 35.687,
+    "longitude": 139.7495
+  },
+  {
+    "iso2": "JE",
+    "iso3": "JEY",
+    "name": "Jersey",
+    "capital": "Saint Helier",
+    "region": "",
+    "subregion": "",
+    "latitude": 49.1858,
+    "longitude": -2.11
+  },
+  {
+    "iso2": "JO",
+    "iso3": "JOR",
+    "name": "Jordan",
+    "capital": "Amman",
+    "region": "",
+    "subregion": "",
+    "latitude": 31.9497,
+    "longitude": 35.9328
+  },
+  {
+    "iso2": "KZ",
+    "iso3": "KAZ",
+    "name": "Kazakhstan",
+    "capital": "Astana",
+    "region": "",
+    "subregion": "",
+    "latitude": 51.1472,
+    "longitude": 71.4222
+  },
+  {
+    "iso2": "KE",
+    "iso3": "KEN",
+    "name": "Kenya",
+    "capital": "Nairobi",
+    "region": "",
+    "subregion": "",
+    "latitude": -1.2864,
+    "longitude": 36.8172
+  },
+  {
+    "iso2": "KI",
+    "iso3": "KIR",
+    "name": "Kiribati",
+    "capital": "Tarawa",
+    "region": "",
+    "subregion": "",
+    "latitude": 1.3382,
+    "longitude": 173.0176
+  },
+  {
+    "iso2": "KP",
+    "iso3": "PRK",
+    "name": "Korea, North",
+    "capital": "Pyongyang",
+    "region": "",
+    "subregion": "",
+    "latitude": 39.0167,
+    "longitude": 125.7475
+  },
+  {
+    "iso2": "KR",
+    "iso3": "KOR",
+    "name": "Korea, South",
+    "capital": "Seoul",
+    "region": "",
+    "subregion": "",
+    "latitude": 37.5667,
+    "longitude": 126.9833
+  },
+  {
+    "iso2": "XK",
+    "iso3": "XKS",
+    "name": "Kosovo",
+    "capital": "Pristina",
+    "region": "",
+    "subregion": "",
+    "latitude": 42.6666,
+    "longitude": 21.1724
+  },
+  {
+    "iso2": "KW",
+    "iso3": "KWT",
+    "name": "Kuwait",
+    "capital": "Kuwait City",
+    "region": "",
+    "subregion": "",
+    "latitude": 29.3697,
+    "longitude": 47.9783
+  },
+  {
+    "iso2": "KG",
+    "iso3": "KGZ",
+    "name": "Kyrgyzstan",
+    "capital": "Bishkek",
+    "region": "",
+    "subregion": "",
+    "latitude": 42.8667,
+    "longitude": 74.5667
+  },
+  {
+    "iso2": "LA",
+    "iso3": "LAO",
+    "name": "Laos",
+    "capital": "Vientiane",
+    "region": "",
+    "subregion": "",
+    "latitude": 17.98,
+    "longitude": 102.63
+  },
+  {
+    "iso2": "LV",
+    "iso3": "LVA",
+    "name": "Latvia",
+    "capital": "Riga",
+    "region": "",
+    "subregion": "",
+    "latitude": 56.9475,
+    "longitude": 24.1069
+  },
+  {
+    "iso2": "LB",
+    "iso3": "LBN",
+    "name": "Lebanon",
+    "capital": "Beirut",
+    "region": "",
+    "subregion": "",
+    "latitude": 33.8981,
+    "longitude": 35.5058
+  },
+  {
+    "iso2": "LS",
+    "iso3": "LSO",
+    "name": "Lesotho",
+    "capital": "Maseru",
+    "region": "",
+    "subregion": "",
+    "latitude": -29.31,
+    "longitude": 27.48
+  },
+  {
+    "iso2": "LR",
+    "iso3": "LBR",
+    "name": "Liberia",
+    "capital": "Monrovia",
+    "region": "",
+    "subregion": "",
+    "latitude": 6.3133,
+    "longitude": -10.8014
+  },
+  {
+    "iso2": "LY",
+    "iso3": "LBY",
+    "name": "Libya",
+    "capital": "Tripoli",
+    "region": "",
+    "subregion": "",
+    "latitude": 32.8872,
+    "longitude": 13.1914
+  },
+  {
+    "iso2": "LI",
+    "iso3": "LIE",
+    "name": "Liechtenstein",
+    "capital": "Vaduz",
+    "region": "",
+    "subregion": "",
+    "latitude": 47.1406,
+    "longitude": 9.5222
+  },
+  {
+    "iso2": "LT",
+    "iso3": "LTU",
+    "name": "Lithuania",
+    "capital": "Vilnius",
+    "region": "",
+    "subregion": "",
+    "latitude": 54.6872,
+    "longitude": 25.28
+  },
+  {
+    "iso2": "LU",
+    "iso3": "LUX",
+    "name": "Luxembourg",
+    "capital": "Luxembourg",
+    "region": "",
+    "subregion": "",
+    "latitude": 49.6117,
+    "longitude": 6.1319
+  },
+  {
+    "iso2": "MO",
+    "iso3": "MAC",
+    "name": "Macau",
+    "capital": "",
+    "region": "",
+    "subregion": "",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "iso2": "MG",
+    "iso3": "MDG",
+    "name": "Madagascar",
+    "capital": "Antananarivo",
+    "region": "",
+    "subregion": "",
+    "latitude": -18.91,
+    "longitude": 47.525
+  },
+  {
+    "iso2": "MW",
+    "iso3": "MWI",
+    "name": "Malawi",
+    "capital": "Lilongwe",
+    "region": "",
+    "subregion": "",
+    "latitude": -13.9669,
+    "longitude": 33.7873
+  },
+  {
+    "iso2": "MY",
+    "iso3": "MYS",
+    "name": "Malaysia",
+    "capital": "Putrajaya",
+    "region": "",
+    "subregion": "",
+    "latitude": 2.914,
+    "longitude": 101.7019
+  },
+  {
+    "iso2": "MV",
+    "iso3": "MDV",
+    "name": "Maldives",
+    "capital": "Male",
+    "region": "",
+    "subregion": "",
+    "latitude": 4.1753,
+    "longitude": 73.5089
+  },
+  {
+    "iso2": "ML",
+    "iso3": "MLI",
+    "name": "Mali",
+    "capital": "Bamako",
+    "region": "",
+    "subregion": "",
+    "latitude": 12.6458,
+    "longitude": -7.9922
+  },
+  {
+    "iso2": "MT",
+    "iso3": "MLT",
+    "name": "Malta",
+    "capital": "Valletta",
+    "region": "",
+    "subregion": "",
+    "latitude": 35.8983,
+    "longitude": 14.5125
+  },
+  {
+    "iso2": "MH",
+    "iso3": "MHL",
+    "name": "Marshall Islands",
+    "capital": "Majuro",
+    "region": "",
+    "subregion": "",
+    "latitude": 7.0833,
+    "longitude": 171.3833
+  },
+  {
+    "iso2": "MQ",
+    "iso3": "MTQ",
+    "name": "Martinique",
+    "capital": "Fort-de-France",
+    "region": "",
+    "subregion": "",
+    "latitude": 14.6,
+    "longitude": -61.0667
+  },
+  {
+    "iso2": "MR",
+    "iso3": "MRT",
+    "name": "Mauritania",
+    "capital": "Nouakchott",
+    "region": "",
+    "subregion": "",
+    "latitude": 18.0858,
+    "longitude": -15.9785
+  },
+  {
+    "iso2": "MU",
+    "iso3": "MUS",
+    "name": "Mauritius",
+    "capital": "Port Louis",
+    "region": "",
+    "subregion": "",
+    "latitude": -20.1644,
+    "longitude": 57.5042
+  },
+  {
+    "iso2": "YT",
+    "iso3": "MYT",
+    "name": "Mayotte",
+    "capital": "Mamoudzou",
+    "region": "",
+    "subregion": "",
+    "latitude": -12.7806,
+    "longitude": 45.2278
+  },
+  {
+    "iso2": "MX",
+    "iso3": "MEX",
+    "name": "Mexico",
+    "capital": "Mexico City",
+    "region": "",
+    "subregion": "",
+    "latitude": 19.4333,
+    "longitude": -99.1333
+  },
+  {
+    "iso2": "FM",
+    "iso3": "FSM",
+    "name": "Micronesia, Federated States of",
+    "capital": "Palikir",
+    "region": "",
+    "subregion": "",
+    "latitude": 6.9172,
+    "longitude": 158.1589
+  },
+  {
+    "iso2": "MD",
+    "iso3": "MDA",
+    "name": "Moldova",
+    "capital": "Chisinau",
+    "region": "",
+    "subregion": "",
+    "latitude": 47.0228,
+    "longitude": 28.8353
+  },
+  {
+    "iso2": "MC",
+    "iso3": "MCO",
+    "name": "Monaco",
+    "capital": "Monaco",
+    "region": "",
+    "subregion": "",
+    "latitude": 43.7333,
+    "longitude": 7.4167
+  },
+  {
+    "iso2": "MN",
+    "iso3": "MNG",
+    "name": "Mongolia",
+    "capital": "Ulaanbaatar",
+    "region": "",
+    "subregion": "",
+    "latitude": 47.9214,
+    "longitude": 106.9055
+  },
+  {
+    "iso2": "ME",
+    "iso3": "MNE",
+    "name": "Montenegro",
+    "capital": "Podgorica",
+    "region": "",
+    "subregion": "",
+    "latitude": 42.4414,
+    "longitude": 19.2628
+  },
+  {
+    "iso2": "MS",
+    "iso3": "MSR",
+    "name": "Montserrat",
+    "capital": "Plymouth",
+    "region": "",
+    "subregion": "",
+    "latitude": 16.7064,
+    "longitude": -62.2158
+  },
+  {
+    "iso2": "MA",
+    "iso3": "MAR",
+    "name": "Morocco",
+    "capital": "Tifariti",
+    "region": "",
+    "subregion": "",
+    "latitude": 26.158,
+    "longitude": -10.567
+  },
+  {
+    "iso2": "MZ",
+    "iso3": "MOZ",
+    "name": "Mozambique",
+    "capital": "Maputo",
+    "region": "",
+    "subregion": "",
+    "latitude": -25.9153,
+    "longitude": 32.5764
+  },
+  {
+    "iso2": "NA",
+    "iso3": "NAM",
+    "name": "Namibia",
+    "capital": "Windhoek",
+    "region": "",
+    "subregion": "",
+    "latitude": -22.57,
+    "longitude": 17.0836
+  },
+  {
+    "iso2": "NR",
+    "iso3": "NRU",
+    "name": "Nauru",
+    "capital": "Yaren",
+    "region": "",
+    "subregion": "",
+    "latitude": -0.5456,
+    "longitude": 166.925
+  },
+  {
+    "iso2": "NP",
+    "iso3": "NPL",
+    "name": "Nepal",
+    "capital": "Kathmandu",
+    "region": "",
+    "subregion": "",
+    "latitude": 27.71,
+    "longitude": 85.32
+  },
+  {
+    "iso2": "NL",
+    "iso3": "NLD",
+    "name": "Netherlands",
+    "capital": "The Hague",
+    "region": "",
+    "subregion": "",
+    "latitude": 52.08,
+    "longitude": 4.31
+  },
+  {
+    "iso2": "NC",
+    "iso3": "NCL",
+    "name": "New Caledonia",
+    "capital": "Nouméa",
+    "region": "",
+    "subregion": "",
+    "latitude": -22.2625,
+    "longitude": 166.4443
+  },
+  {
+    "iso2": "NZ",
+    "iso3": "NZL",
+    "name": "New Zealand",
+    "capital": "Wellington",
+    "region": "",
+    "subregion": "",
+    "latitude": -41.2889,
+    "longitude": 174.7772
+  },
+  {
+    "iso2": "NI",
+    "iso3": "NIC",
+    "name": "Nicaragua",
+    "capital": "Managua",
+    "region": "",
+    "subregion": "",
+    "latitude": 12.1364,
+    "longitude": -86.2514
+  },
+  {
+    "iso2": "NE",
+    "iso3": "NER",
+    "name": "Niger",
+    "capital": "Niamey",
+    "region": "",
+    "subregion": "",
+    "latitude": 13.515,
+    "longitude": 2.1175
+  },
+  {
+    "iso2": "NG",
+    "iso3": "NGA",
+    "name": "Nigeria",
+    "capital": "Abuja",
+    "region": "",
+    "subregion": "",
+    "latitude": 9.0667,
+    "longitude": 7.4833
+  },
+  {
+    "iso2": "NU",
+    "iso3": "NIU",
+    "name": "Niue",
+    "capital": "Alofi",
+    "region": "",
+    "subregion": "",
+    "latitude": -19.056,
+    "longitude": -169.921
+  },
+  {
+    "iso2": "NF",
+    "iso3": "NFK",
+    "name": "Norfolk Island",
+    "capital": "Kingston",
+    "region": "",
+    "subregion": "",
+    "latitude": -29.0606,
+    "longitude": 167.9619
+  },
+  {
+    "iso2": "MK",
+    "iso3": "MKD",
+    "name": "North Macedonia",
+    "capital": "Skopje",
+    "region": "",
+    "subregion": "",
+    "latitude": 41.9961,
+    "longitude": 21.4317
+  },
+  {
+    "iso2": "MP",
+    "iso3": "MNP",
+    "name": "Northern Mariana Islands",
+    "capital": "Capitol Hill",
+    "region": "",
+    "subregion": "",
+    "latitude": 15.2137,
+    "longitude": 145.7546
+  },
+  {
+    "iso2": "NO",
+    "iso3": "NOR",
+    "name": "Norway",
+    "capital": "Oslo",
+    "region": "",
+    "subregion": "",
+    "latitude": 59.9133,
+    "longitude": 10.7389
+  },
+  {
+    "iso2": "OM",
+    "iso3": "OMN",
+    "name": "Oman",
+    "capital": "Muscat",
+    "region": "",
+    "subregion": "",
+    "latitude": 23.6139,
+    "longitude": 58.5922
+  },
+  {
+    "iso2": "PK",
+    "iso3": "PAK",
+    "name": "Pakistan",
+    "capital": "Islamabad",
+    "region": "",
+    "subregion": "",
+    "latitude": 33.6931,
+    "longitude": 73.0639
+  },
+  {
+    "iso2": "PW",
+    "iso3": "PLW",
+    "name": "Palau",
+    "capital": "Ngerulmud",
+    "region": "",
+    "subregion": "",
+    "latitude": 7.5006,
+    "longitude": 134.6242
+  },
+  {
+    "iso2": "PA",
+    "iso3": "PAN",
+    "name": "Panama",
+    "capital": "Panama City",
+    "region": "",
+    "subregion": "",
+    "latitude": 8.9711,
+    "longitude": -79.5347
+  },
+  {
+    "iso2": "PG",
+    "iso3": "PNG",
+    "name": "Papua New Guinea",
+    "capital": "Port Moresby",
+    "region": "",
+    "subregion": "",
+    "latitude": -9.4789,
+    "longitude": 147.1494
+  },
+  {
+    "iso2": "PY",
+    "iso3": "PRY",
+    "name": "Paraguay",
+    "capital": "Asunción",
+    "region": "",
+    "subregion": "",
+    "latitude": -25.2945,
+    "longitude": -57.6435
+  },
+  {
+    "iso2": "PE",
+    "iso3": "PER",
+    "name": "Peru",
+    "capital": "Lima",
+    "region": "",
+    "subregion": "",
+    "latitude": -12.06,
+    "longitude": -77.0375
+  },
+  {
+    "iso2": "PH",
+    "iso3": "PHL",
+    "name": "Philippines",
+    "capital": "Manila",
+    "region": "",
+    "subregion": "",
+    "latitude": 14.5958,
+    "longitude": 120.9772
+  },
+  {
+    "iso2": "PN",
+    "iso3": "PCN",
+    "name": "Pitcairn Islands",
+    "capital": "Adamstown",
+    "region": "",
+    "subregion": "",
+    "latitude": -25.0667,
+    "longitude": -130.0833
+  },
+  {
+    "iso2": "PL",
+    "iso3": "POL",
+    "name": "Poland",
+    "capital": "Warsaw",
+    "region": "",
+    "subregion": "",
+    "latitude": 52.23,
+    "longitude": 21.0111
+  },
+  {
+    "iso2": "PT",
+    "iso3": "PRT",
+    "name": "Portugal",
+    "capital": "Lisbon",
+    "region": "",
+    "subregion": "",
+    "latitude": 38.7122,
+    "longitude": -9.134
+  },
+  {
+    "iso2": "PR",
+    "iso3": "PRI",
+    "name": "Puerto Rico",
+    "capital": "San Juan",
+    "region": "",
+    "subregion": "",
+    "latitude": 18.3985,
+    "longitude": -66.061
+  },
+  {
+    "iso2": "QA",
+    "iso3": "QAT",
+    "name": "Qatar",
+    "capital": "Doha",
+    "region": "",
+    "subregion": "",
+    "latitude": 25.2867,
+    "longitude": 51.5333
+  },
+  {
+    "iso2": "RE",
+    "iso3": "REU",
+    "name": "Reunion",
+    "capital": "Saint-Denis",
+    "region": "",
+    "subregion": "",
+    "latitude": -20.8789,
+    "longitude": 55.4481
+  },
+  {
+    "iso2": "RO",
+    "iso3": "ROU",
+    "name": "Romania",
+    "capital": "Bucharest",
+    "region": "",
+    "subregion": "",
+    "latitude": 44.4325,
+    "longitude": 26.1039
+  },
+  {
+    "iso2": "RU",
+    "iso3": "RUS",
+    "name": "Russia",
+    "capital": "Moscow",
+    "region": "",
+    "subregion": "",
+    "latitude": 55.7506,
+    "longitude": 37.6175
+  },
+  {
+    "iso2": "RW",
+    "iso3": "RWA",
+    "name": "Rwanda",
+    "capital": "Kigali",
+    "region": "",
+    "subregion": "",
+    "latitude": -1.9536,
+    "longitude": 30.0606
+  },
+  {
+    "iso2": "BL",
+    "iso3": "BLM",
+    "name": "Saint Barthelemy",
+    "capital": "Gustavia",
+    "region": "",
+    "subregion": "",
+    "latitude": 17.8979,
+    "longitude": -62.8506
+  },
+  {
+    "iso2": "SH",
+    "iso3": "SHN",
+    "name": "Saint Helena, Ascension, and Tristan da Cunha",
+    "capital": "Jamestown",
+    "region": "",
+    "subregion": "",
+    "latitude": -15.9251,
+    "longitude": -5.7179
+  },
+  {
+    "iso2": "KN",
+    "iso3": "KNA",
+    "name": "Saint Kitts and Nevis",
+    "capital": "Basseterre",
+    "region": "",
+    "subregion": "",
+    "latitude": 17.3,
+    "longitude": -62.7333
+  },
+  {
+    "iso2": "LC",
+    "iso3": "LCA",
+    "name": "Saint Lucia",
+    "capital": "Castries",
+    "region": "",
+    "subregion": "",
+    "latitude": 14.0108,
+    "longitude": -60.9894
+  },
+  {
+    "iso2": "MF",
+    "iso3": "MAF",
+    "name": "Saint Martin",
+    "capital": "Marigot",
+    "region": "",
+    "subregion": "",
+    "latitude": 18.0706,
+    "longitude": -63.0847
+  },
+  {
+    "iso2": "PM",
+    "iso3": "SPM",
+    "name": "Saint Pierre and Miquelon",
+    "capital": "Saint-Pierre",
+    "region": "",
+    "subregion": "",
+    "latitude": 46.7817,
+    "longitude": -56.1736
+  },
+  {
+    "iso2": "VC",
+    "iso3": "VCT",
+    "name": "Saint Vincent and the Grenadines",
+    "capital": "Kingstown",
+    "region": "",
+    "subregion": "",
+    "latitude": 13.1578,
+    "longitude": -61.225
+  },
+  {
+    "iso2": "WS",
+    "iso3": "WSM",
+    "name": "Samoa",
+    "capital": "Apia",
+    "region": "",
+    "subregion": "",
+    "latitude": -13.8333,
+    "longitude": -171.75
+  },
+  {
+    "iso2": "SM",
+    "iso3": "SMR",
+    "name": "San Marino",
+    "capital": "San Marino",
+    "region": "",
+    "subregion": "",
+    "latitude": 43.9346,
+    "longitude": 12.4473
+  },
+  {
+    "iso2": "ST",
+    "iso3": "STP",
+    "name": "Sao Tome and Principe",
+    "capital": "São Tomé",
+    "region": "",
+    "subregion": "",
+    "latitude": 0.3361,
+    "longitude": 6.7306
+  },
+  {
+    "iso2": "SA",
+    "iso3": "SAU",
+    "name": "Saudi Arabia",
+    "capital": "Riyadh",
+    "region": "",
+    "subregion": "",
+    "latitude": 24.65,
+    "longitude": 46.71
+  },
+  {
+    "iso2": "SN",
+    "iso3": "SEN",
+    "name": "Senegal",
+    "capital": "Dakar",
+    "region": "",
+    "subregion": "",
+    "latitude": 14.6726,
+    "longitude": -17.432
+  },
+  {
+    "iso2": "RS",
+    "iso3": "SRB",
+    "name": "Serbia",
+    "capital": "Belgrade",
+    "region": "",
+    "subregion": "",
+    "latitude": 44.8178,
+    "longitude": 20.4569
+  },
+  {
+    "iso2": "SC",
+    "iso3": "SYC",
+    "name": "Seychelles",
+    "capital": "Victoria",
+    "region": "",
+    "subregion": "",
+    "latitude": -4.6231,
+    "longitude": 55.4525
+  },
+  {
+    "iso2": "SL",
+    "iso3": "SLE",
+    "name": "Sierra Leone",
+    "capital": "Freetown",
+    "region": "",
+    "subregion": "",
+    "latitude": 8.4833,
+    "longitude": -13.2331
+  },
+  {
+    "iso2": "SG",
+    "iso3": "SGP",
+    "name": "Singapore",
+    "capital": "Singapore",
+    "region": "",
+    "subregion": "",
+    "latitude": 1.3,
+    "longitude": 103.8
+  },
+  {
+    "iso2": "SX",
+    "iso3": "SXM",
+    "name": "Sint Maarten",
+    "capital": "Philipsburg",
+    "region": "",
+    "subregion": "",
+    "latitude": 18.0237,
+    "longitude": -63.0458
+  },
+  {
+    "iso2": "SK",
+    "iso3": "SVK",
+    "name": "Slovakia",
+    "capital": "Bratislava",
+    "region": "",
+    "subregion": "",
+    "latitude": 48.1447,
+    "longitude": 17.1128
+  },
+  {
+    "iso2": "SI",
+    "iso3": "SVN",
+    "name": "Slovenia",
+    "capital": "Ljubljana",
+    "region": "",
+    "subregion": "",
+    "latitude": 46.0514,
+    "longitude": 14.5061
+  },
+  {
+    "iso2": "SB",
+    "iso3": "SLB",
+    "name": "Solomon Islands",
+    "capital": "Honiara",
+    "region": "",
+    "subregion": "",
+    "latitude": -9.4333,
+    "longitude": 159.95
+  },
+  {
+    "iso2": "SO",
+    "iso3": "SOM",
+    "name": "Somalia",
+    "capital": "Mogadishu",
+    "region": "",
+    "subregion": "",
+    "latitude": 2.0392,
+    "longitude": 45.3419
+  },
+  {
+    "iso2": "ZA",
+    "iso3": "ZAF",
+    "name": "South Africa",
+    "capital": "Bloemfontein",
+    "region": "",
+    "subregion": "",
+    "latitude": -29.1167,
+    "longitude": 26.2167
+  },
+  {
+    "iso2": "GS",
+    "iso3": "SGS",
+    "name": "South Georgia and South Sandwich Islands",
+    "capital": "King Edward Point",
+    "region": "",
+    "subregion": "",
+    "latitude": -54.2833,
+    "longitude": -36.5
+  },
+  {
+    "iso2": "SS",
+    "iso3": "SSD",
+    "name": "South Sudan",
+    "capital": "Juba",
+    "region": "",
+    "subregion": "",
+    "latitude": 4.83,
+    "longitude": 31.58
+  },
+  {
+    "iso2": "ES",
+    "iso3": "ESP",
+    "name": "Spain",
+    "capital": "Madrid",
+    "region": "",
+    "subregion": "",
+    "latitude": 40.4169,
+    "longitude": -3.7033
+  },
+  {
+    "iso2": "LK",
+    "iso3": "LKA",
+    "name": "Sri Lanka",
+    "capital": "Sri Jayewardenepura Kotte",
+    "region": "",
+    "subregion": "",
+    "latitude": 6.9,
+    "longitude": 79.9164
+  },
+  {
+    "iso2": "SD",
+    "iso3": "SDN",
+    "name": "Sudan",
+    "capital": "Khartoum",
+    "region": "",
+    "subregion": "",
+    "latitude": 15.6031,
+    "longitude": 32.5265
+  },
+  {
+    "iso2": "SR",
+    "iso3": "SUR",
+    "name": "Suriname",
+    "capital": "Paramaribo",
+    "region": "",
+    "subregion": "",
+    "latitude": 5.8522,
+    "longitude": -55.2039
+  },
+  {
+    "iso2": "XR",
+    "iso3": "XSV",
+    "name": "Svalbard",
+    "capital": "Longyearbyen",
+    "region": "",
+    "subregion": "",
+    "latitude": 78.2167,
+    "longitude": 15.6333
+  },
+  {
+    "iso2": "SE",
+    "iso3": "SWE",
+    "name": "Sweden",
+    "capital": "Stockholm",
+    "region": "",
+    "subregion": "",
+    "latitude": 59.3275,
+    "longitude": 18.0547
+  },
+  {
+    "iso2": "CH",
+    "iso3": "CHE",
+    "name": "Switzerland",
+    "capital": "Bern",
+    "region": "",
+    "subregion": "",
+    "latitude": 46.948,
+    "longitude": 7.4474
+  },
+  {
+    "iso2": "SY",
+    "iso3": "SYR",
+    "name": "Syria",
+    "capital": "Damascus",
+    "region": "",
+    "subregion": "",
+    "latitude": 33.502,
+    "longitude": 36.2981
+  },
+  {
+    "iso2": "TW",
+    "iso3": "TWN",
+    "name": "Taiwan",
+    "capital": "Taipei",
+    "region": "",
+    "subregion": "",
+    "latitude": 25.0375,
+    "longitude": 121.5625
+  },
+  {
+    "iso2": "TJ",
+    "iso3": "TJK",
+    "name": "Tajikistan",
+    "capital": "Dushanbe",
+    "region": "",
+    "subregion": "",
+    "latitude": 38.5367,
+    "longitude": 68.78
+  },
+  {
+    "iso2": "TZ",
+    "iso3": "TZA",
+    "name": "Tanzania",
+    "capital": "Dodoma",
+    "region": "",
+    "subregion": "",
+    "latitude": -6.1731,
+    "longitude": 35.7419
+  },
+  {
+    "iso2": "TH",
+    "iso3": "THA",
+    "name": "Thailand",
+    "capital": "Bangkok",
+    "region": "",
+    "subregion": "",
+    "latitude": 13.7525,
+    "longitude": 100.4942
+  },
+  {
+    "iso2": "TL",
+    "iso3": "TLS",
+    "name": "Timor-Leste",
+    "capital": "Dili",
+    "region": "",
+    "subregion": "",
+    "latitude": -8.5594,
+    "longitude": 125.5795
+  },
+  {
+    "iso2": "TG",
+    "iso3": "TGO",
+    "name": "Togo",
+    "capital": "Lomé",
+    "region": "",
+    "subregion": "",
+    "latitude": 6.1308,
+    "longitude": 1.2153
+  },
+  {
+    "iso2": "TO",
+    "iso3": "TON",
+    "name": "Tonga",
+    "capital": "Nuku‘alofa",
+    "region": "",
+    "subregion": "",
+    "latitude": -21.1333,
+    "longitude": -175.2
+  },
+  {
+    "iso2": "TT",
+    "iso3": "TTO",
+    "name": "Trinidad and Tobago",
+    "capital": "Port of Spain",
+    "region": "",
+    "subregion": "",
+    "latitude": 10.6667,
+    "longitude": -61.5167
+  },
+  {
+    "iso2": "TN",
+    "iso3": "TUN",
+    "name": "Tunisia",
+    "capital": "Tunis",
+    "region": "",
+    "subregion": "",
+    "latitude": 36.8064,
+    "longitude": 10.1817
+  },
+  {
+    "iso2": "TR",
+    "iso3": "TUR",
+    "name": "Turkey",
+    "capital": "Ankara",
+    "region": "",
+    "subregion": "",
+    "latitude": 39.93,
+    "longitude": 32.85
+  },
+  {
+    "iso2": "TM",
+    "iso3": "TKM",
+    "name": "Turkmenistan",
+    "capital": "Ashgabat",
+    "region": "",
+    "subregion": "",
+    "latitude": 37.9375,
+    "longitude": 58.38
+  },
+  {
+    "iso2": "TC",
+    "iso3": "TCA",
+    "name": "Turks and Caicos Islands",
+    "capital": "Grand Turk",
+    "region": "",
+    "subregion": "",
+    "latitude": 21.459,
+    "longitude": -71.139
+  },
+  {
+    "iso2": "TV",
+    "iso3": "TUV",
+    "name": "Tuvalu",
+    "capital": "Funafuti",
+    "region": "",
+    "subregion": "",
+    "latitude": -8.5167,
+    "longitude": 179.2
+  },
+  {
+    "iso2": "VI",
+    "iso3": "VIR",
+    "name": "U.S. Virgin Islands",
+    "capital": "Charlotte Amalie",
+    "region": "",
+    "subregion": "",
+    "latitude": 18.342,
+    "longitude": -64.9331
+  },
+  {
+    "iso2": "UG",
+    "iso3": "UGA",
+    "name": "Uganda",
+    "capital": "Kampala",
+    "region": "",
+    "subregion": "",
+    "latitude": 0.3136,
+    "longitude": 32.5811
+  },
+  {
+    "iso2": "UA",
+    "iso3": "UKR",
+    "name": "Ukraine",
+    "capital": "Kyiv",
+    "region": "",
+    "subregion": "",
+    "latitude": 50.45,
+    "longitude": 30.5233
+  },
+  {
+    "iso2": "AE",
+    "iso3": "ARE",
+    "name": "United Arab Emirates",
+    "capital": "Abu Dhabi",
+    "region": "",
+    "subregion": "",
+    "latitude": 24.4667,
+    "longitude": 54.3667
+  },
+  {
+    "iso2": "GB",
+    "iso3": "GBR",
+    "name": "United Kingdom",
+    "capital": "London",
+    "region": "",
+    "subregion": "",
+    "latitude": 51.5072,
+    "longitude": -0.1275
+  },
+  {
+    "iso2": "US",
+    "iso3": "USA",
+    "name": "United States",
+    "capital": "Washington",
+    "region": "",
+    "subregion": "",
+    "latitude": 38.9047,
+    "longitude": -77.0163
+  },
+  {
+    "iso2": "UY",
+    "iso3": "URY",
+    "name": "Uruguay",
+    "capital": "Montevideo",
+    "region": "",
+    "subregion": "",
+    "latitude": -34.9056,
+    "longitude": -56.1842
+  },
+  {
+    "iso2": "UZ",
+    "iso3": "UZB",
+    "name": "Uzbekistan",
+    "capital": "Tashkent",
+    "region": "",
+    "subregion": "",
+    "latitude": 41.3111,
+    "longitude": 69.2797
+  },
+  {
+    "iso2": "VU",
+    "iso3": "VUT",
+    "name": "Vanuatu",
+    "capital": "Port-Vila",
+    "region": "",
+    "subregion": "",
+    "latitude": -17.7333,
+    "longitude": 168.3167
+  },
+  {
+    "iso2": "VA",
+    "iso3": "VAT",
+    "name": "Vatican City",
+    "capital": "Vatican City",
+    "region": "",
+    "subregion": "",
+    "latitude": 41.904,
+    "longitude": 12.453
+  },
+  {
+    "iso2": "VE",
+    "iso3": "VEN",
+    "name": "Venezuela",
+    "capital": "Caracas",
+    "region": "",
+    "subregion": "",
+    "latitude": 10.4806,
+    "longitude": -66.9036
+  },
+  {
+    "iso2": "VN",
+    "iso3": "VNM",
+    "name": "Vietnam",
+    "capital": "Hanoi",
+    "region": "",
+    "subregion": "",
+    "latitude": 21.0,
+    "longitude": 105.85
+  },
+  {
+    "iso2": "VG",
+    "iso3": "VGB",
+    "name": "Virgin Islands, British",
+    "capital": "Road Town",
+    "region": "",
+    "subregion": "",
+    "latitude": 18.4167,
+    "longitude": -64.6167
+  },
+  {
+    "iso2": "WF",
+    "iso3": "WLF",
+    "name": "Wallis and Futuna",
+    "capital": "Mata-Utu",
+    "region": "",
+    "subregion": "",
+    "latitude": -13.2825,
+    "longitude": -176.1736
+  },
+  {
+    "iso2": "XW",
+    "iso3": "XWB",
+    "name": "West Bank",
+    "capital": "",
+    "region": "",
+    "subregion": "",
+    "latitude": 0,
+    "longitude": 0
+  },
+  {
+    "iso2": "YE",
+    "iso3": "YEM",
+    "name": "Yemen",
+    "capital": "Sanaa",
+    "region": "",
+    "subregion": "",
+    "latitude": 15.3483,
+    "longitude": 44.2064
+  },
+  {
+    "iso2": "ZM",
+    "iso3": "ZMB",
+    "name": "Zambia",
+    "capital": "Lusaka",
+    "region": "",
+    "subregion": "",
+    "latitude": -15.4167,
+    "longitude": 28.2833
+  },
+  {
+    "iso2": "ZW",
+    "iso3": "ZWE",
+    "name": "Zimbabwe",
+    "capital": "Harare",
+    "region": "",
+    "subregion": "",
+    "latitude": -17.8292,
+    "longitude": 31.0522
+  }
+]
