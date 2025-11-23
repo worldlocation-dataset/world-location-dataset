@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>World Dataset Documentation</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #f3f4f6;
+      color: #111827;
+    }
+    header {
+      background: #111827;
+      color: #f9fafb;
+      padding: 20px 16px;
+      text-align: center;
+    }
+    .container {
+      max-width: 960px;
+      margin: 24px auto 40px;
+      padding: 0 16px;
+    }
+    .card {
+      background: #ffffff;
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 10px 15px -3px rgba(0,0,0,0.05);
+    }
+    h1, h2, h3 {
+      margin-top: 0;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.9rem;
+      margin-top: 10px;
+    }
+    th, td {
+      border: 1px solid #e5e7eb;
+      padding: 6px 8px;
+      text-align: left;
+    }
+    th {
+      background: #f9fafb;
+    }
+    pre {
+      padding: 10px;
+      border-radius: 8px;
+      background: #111827;
+      color: #e5e7eb;
+      overflow-x: auto;
+      font-size: 0.85rem;
+    }
+    a.link {
+      color: #2563eb;
+      text-decoration: none;
+    }
+    a.link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>World Countries, Capitals & Cities Dataset</h1>
+    <p>Documentation · Field definitions & examples</p>
+  </header>
+
+  <div class="container">
+    <div class="card">
+      <h2>Files Overview</h2>
+      <ul>
+        <li><code>data/countries.json</code> &amp; <code>data/countries.csv</code> – Countries & capitals</li>
+        <li><code>data/cities.json</code> &amp; <code>data/cities.csv</code> – Cities</li>
+      </ul>
+      <p><a href="index.html" class="link">&larr; Back to Downloads</a></p>
+    </div>
+
+    <div class="card" id="api">
+      <h2>Static API-style Endpoints</h2>
+      <p>
+        Although this project is a static website, the files can be consumed like a simple API.
+        All endpoints are just static JSON files.
+      </p>
+
+      <h3>Countries</h3>
+      <ul>
+        <li><code>/data/countries.json</code> – Array of country objects</li>
+        <li><code>/data/countries.csv</code> – Same data in CSV format</li>
+      </ul>
+
+      <h3>Cities (by country)</h3>
+      <p>Each country has its own file based on the ISO 3166-1 alpha-2 code:</p>
+      <ul>
+        <li><code>/data/cities/IN.json</code> – All cities in India</li>
+        <li><code>/data/cities/US.json</code> – All cities in the United States</li>
+        <li><code>/data/cities/GB.json</code> – All cities in the United Kingdom</li>
+        <li>… and so on for each country.</li>
+      </ul>
+
+      <h3>Usage examples</h3>
+      <h4>JavaScript</h4>
+      <pre><code>const iso2 = 'IN';
+fetch(`/data/cities/${iso2}.json`)
+  .then(res =&gt; res.json())
+  .then(cities =&gt; {
+    console.log(`Cities in ${iso2}:`, cities.length);
+  });</code></pre>
+
+      <h4>Python</h4>
+      <pre><code>import requests
+
+iso2 = "US"
+resp = requests.get(f"https://your-domain.com/data/cities/{iso2}.json")
+cities = resp.json()
+print("Cities in US:", len(cities))</code></pre>
+    </div>
+
+    <div class="card">
+      <h2>Countries Schema</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Field</th>
+            <th>Type</th>
+            <th>Description</th>
+            <th>Example</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><code>iso2</code></td>
+            <td>string</td>
+            <td>2-letter ISO 3166-1 alpha-2 country code</td>
+            <td><code>"IN"</code></td>
+          </tr>
+          <tr>
+            <td><code>iso3</code></td>
+            <td>string</td>
+            <td>3-letter ISO 3166-1 alpha-3 country code</td>
+            <td><code>"IND"</code></td>
+          </tr>
+          <tr>
+            <td><code>name</code></td>
+            <td>string</td>
+            <td>Country name</td>
+            <td><code>"India"</code></td>
+          </tr>
+          <tr>
+            <td><code>capital</code></td>
+            <td>string</td>
+            <td>Capital city name</td>
+            <td><code>"New Delhi"</code></td>
+          </tr>
+          <tr>
+            <td><code>region</code></td>
+            <td>string</td>
+            <td>Geographical region</td>
+            <td><code>"Asia"</code></td>
+          </tr>
+          <tr>
+            <td><code>subregion</code></td>
+            <td>string</td>
+            <td>Sub-region</td>
+            <td><code>"Southern Asia"</code></td>
+          </tr>
+          <tr>
+            <td><code>latitude</code></td>
+            <td>number</td>
+            <td>Latitude of capital</td>
+            <td><code>28.6139</code></td>
+          </tr>
+          <tr>
+            <td><code>longitude</code></td>
+            <td>number</td>
+            <td>Longitude of capital</td>
+            <td><code>77.2090</code></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Sample (countries.json)</h3>
+      <pre><code>[
+  {
+    "iso2": "IN",
+    "iso3": "IND",
+    "name": "India",
+    "capital": "New Delhi",
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "latitude": 28.6139,
+    "longitude": 77.2090
+  },
+  {
+    "iso2": "US",
+    "iso3": "USA",
+    "name": "United States of America",
+    "capital": "Washington, D.C.",
+    "region": "Americas",
+    "subregion": "Northern America",
+    "latitude": 38.9072,
+    "longitude": -77.0369
+  }
+]</code></pre>
+    </div>
+
+    <div class="card">
+      <h2>Cities Schema</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Field</th>
+            <th>Type</th>
+            <th>Description</th>
+            <th>Example</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><code>name</code></td>
+            <td>string</td>
+            <td>City name</td>
+            <td><code>"Chennai"</code></td>
+          </tr>
+          <tr>
+            <td><code>country_iso2</code></td>
+            <td>string</td>
+            <td>2-letter country code linked to <code>iso2</code> in countries</td>
+            <td><code>"IN"</code></td>
+          </tr>
+          <tr>
+            <td><code>state</code></td>
+            <td>string</td>
+            <td>State or region name, if available</td>
+            <td><code>"Tamil Nadu"</code></td>
+          </tr>
+          <tr>
+            <td><code>is_capital</code></td>
+            <td>boolean</td>
+            <td>True if this city is a capital city</td>
+            <td><code>false</code></td>
+          </tr>
+          <tr>
+            <td><code>latitude</code></td>
+            <td>number</td>
+            <td>Latitude of the city</td>
+            <td><code>13.0827</code></td>
+          </tr>
+          <tr>
+            <td><code>longitude</code></td>
+            <td>number</td>
+            <td>Longitude of the city</td>
+            <td><code>80.2707</code></td>
+          </tr>
+          <tr>
+            <td><code>population</code></td>
+            <td>number|null</td>
+            <td>Population (if known), or null</td>
+            <td><code>7090000</code></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Sample (cities.json)</h3>
+      <pre><code>[
+  {
+    "name": "Chennai",
+    "country_iso2": "IN",
+    "state": "Tamil Nadu",
+    "is_capital": false,
+    "latitude": 13.0827,
+    "longitude": 80.2707,
+    "population": 7090000
+  },
+  {
+    "name": "New Delhi",
+    "country_iso2": "IN",
+    "state": "Delhi",
+    "is_capital": true,
+    "latitude": 28.6139,
+    "longitude": 77.2090,
+    "population": 16787941
+  }
+]</code></pre>
+    </div>
+  </div>
+</body>
+</html>

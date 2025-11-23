@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>World Countries, Capitals & Cities Dataset (Free)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Free dataset of world countries, capitals and cities for developers. Download in JSON or CSV format. Browse cities by country.">
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #f3f4f6;
+      color: #111827;
+    }
+    header {
+      background: #111827;
+      color: #f9fafb;
+      padding: 24px 16px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.8rem;
+    }
+    header p {
+      margin: 8px 0 0;
+      font-size: 0.95rem;
+      opacity: 0.9;
+    }
+    .container {
+      max-width: 1100px;
+      margin: 24px auto 40px;
+      padding: 0 16px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.1fr) minmax(0, 1.4fr);
+      gap: 20px;
+    }
+    @media (max-width: 900px) {
+      .grid {
+        grid-template-columns: minmax(0, 1fr);
+      }
+    }
+    .card {
+      background: #ffffff;
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 10px 15px -3px rgba(0,0,0,0.05);
+    }
+    .full-width {
+      grid-column: 1 / -1;
+    }
+    .card h2 {
+      margin-top: 0;
+      font-size: 1.3rem;
+    }
+    .card h3 {
+      margin-bottom: 6px;
+      font-size: 1.05rem;
+    }
+    .muted {
+      font-size: 0.9rem;
+      color: #6b7280;
+      margin-top: 4px;
+    }
+    .btn-group {
+      margin-top: 10px;
+      margin-bottom: 14px;
+    }
+    .btn {
+      display: inline-block;
+      margin-right: 8px;
+      margin-bottom: 8px;
+      padding: 8px 14px;
+      border-radius: 999px;
+      text-decoration: none;
+      font-size: 0.9rem;
+      border: 1px solid #111827;
+      background: transparent;
+      color: #111827;
+      transition: background 0.15s ease, color 0.15s ease, transform 0.05s ease;
+      cursor: pointer;
+    }
+    .btn-primary {
+      background: #111827;
+      color: #f9fafb;
+    }
+    .btn:hover {
+      transform: translateY(-1px);
+      background: #111827;
+      color: #f9fafb;
+    }
+    pre {
+      padding: 10px;
+      border-radius: 8px;
+      background: #111827;
+      color: #e5e7eb;
+      overflow-x: auto;
+      font-size: 0.85rem;
+    }
+    code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    }
+    .tagline {
+      font-size: 0.9rem;
+      margin-top: 4px;
+      color: #9ca3af;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.8rem;
+      color: #6b7280;
+      padding: 16px;
+    }
+    a.link {
+      color: #2563eb;
+      text-decoration: none;
+    }
+    a.link:hover {
+      text-decoration: underline;
+    }
+
+    /* Inputs & dropdowns */
+    .field-label {
+      font-size: 0.9rem;
+      margin-bottom: 4px;
+      font-weight: 500;
+    }
+    select,
+    input[type="text"] {
+      width: 100%;
+      padding: 8px 10px;
+      font-size: 0.9rem;
+      border-radius: 8px;
+      border: 1px solid #d1d5db;
+      background: #f9fafb;
+    }
+    select:focus,
+    input[type="text"]:focus {
+      outline: none;
+      border-color: #111827;
+      box-shadow: 0 0 0 1px #111827;
+    }
+
+    .status {
+      font-size: 0.85rem;
+      margin-top: 8px;
+      color: #6b7280;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.85rem;
+      margin-top: 12px;
+    }
+    th, td {
+      border: 1px solid #e5e7eb;
+      padding: 6px 8px;
+      text-align: left;
+      vertical-align: top;
+    }
+    th {
+      background: #f9fafb;
+      font-weight: 600;
+    }
+    .pill {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 999px;
+      font-size: 0.75rem;
+      background: #ecfdf3;
+      color: #166534;
+    }
+    .pill-danger {
+      background: #fef2f2;
+      color: #b91c1c;
+    }
+    .small {
+      font-size: 0.8rem;
+    }
+    #citiesTableWrapper {
+      max-height: 320px;
+      overflow: auto;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>World Countries, Capitals & Cities Dataset</h1>
+    <p>Free downloads for developers · JSON & CSV · Country-wise city browsing</p>
+  </header>
+
+  <div class="container">
+    <div class="grid">
+      <!-- Downloads block -->
+      <div class="card">
+        <h2>Download Datasets</h2>
+
+        <h3>Countries & Capitals</h3>
+        <p class="muted">Includes ISO codes, country name, capital, and coordinates (region & subregion fields reserved).</p>
+        <div class="btn-group">
+          <a href="data/countries.json" class="btn btn-primary" download>Download JSON</a>
+          <a href="data/countries.csv" class="btn" download>Download CSV</a>
+        </div>
+
+        <h3>Cities (All by Country)</h3>
+        <p class="muted">Each country has its own JSON file at <code>/data/cities/XX.json</code> (where XX is ISO2).</p>
+        <div class="btn-group">
+          <a href="docs.html#api" class="btn">View API-style URLs</a>
+        </div>
+
+        <p class="tagline">Use full files in your apps, or browse country-wise on the right.</p>
+      </div>
+
+      <!-- Country-wise city browser -->
+      <div class="card">
+        <h2>Browse Cities by Country</h2>
+        <p class="muted">Select a country to view its cities instantly. All filtering happens in the browser using static JSON files.</p>
+
+        <div>
+          <div class="field-label">Country</div>
+          <select id="countrySelect">
+            <option value="">Loading countries…</option>
+          </select>
+          <div id="citiesStatus" class="status"></div>
+
+          <!-- Download this country’s cities -->
+          <div class="btn-group" id="downloadCountryBtnWrapper" style="margin-top:8px; display:none;">
+            <a id="downloadCountryBtn" href="#" class="btn" download>Download this country's cities (JSON)</a>
+          </div>
+        </div>
+
+        <!-- Search within cities -->
+        <div id="citySearchWrapper" style="margin-top:12px; display:none;">
+          <label class="field-label" for="citySearch">Search cities</label>
+          <input id="citySearch" type="text" placeholder="Type to filter by city or state..." autocomplete="off" />
+          <div class="status small" id="searchStatus"></div>
+        </div>
+
+        <!-- City table -->
+        <div id="citiesTableWrapper" style="margin-top: 12px; display:none;">
+          <table id="citiesTable">
+            <thead>
+              <tr>
+                <th style="width: 30%;">City</th>
+                <th style="width: 30%;">State / Region</th>
+                <th style="width: 15%;">Capital?</th>
+                <th style="width: 25%;">Population</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- Filled via JS -->
+            </tbody>
+          </table>
+          <div class="small muted" id="citiesCountInfo" style="margin-top: 6px;"></div>
+        </div>
+
+        <!-- Country stats -->
+        <div id="countryStats" class="small muted" style="margin-top: 10px;"></div>
+
+        <!-- Top 10 largest cities -->
+        <div id="topCitiesWrapper" style="margin-top: 12px; display:none;">
+          <div class="field-label">Top 10 largest cities in this country</div>
+          <table id="topCitiesTable">
+            <thead>
+              <tr>
+                <th style="width: 40%;">City</th>
+                <th style="width: 35%;">State / Region</th>
+                <th style="width: 25%;">Population</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- Filled via JS -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Developer quick start -->
+      <div class="card full-width">
+        <h2>Quick Start for Developers</h2>
+        <div class="grid" style="gap:16px;">
+          <div class="card" style="box-shadow:none; padding:12px; margin:0;">
+            <h3>JavaScript (fetch countries)</h3>
+            <pre><code>fetch('https://your-domain.com/data/countries.json')
+  .then(res =&gt; res.json())
+  .then(countries =&gt; {
+    console.log('Total countries:', countries.length);
+    console.log('First country:', countries[0]);
+  });</code></pre>
+          </div>
+          <div class="card" style="box-shadow:none; padding:12px; margin:0;">
+            <h3>JavaScript (fetch cities for one country)</h3>
+            <pre><code>const iso2 = 'IN'; // India
+fetch(`https://your-domain.com/data/cities/${iso2}.json`)
+  .then(res =&gt; res.json())
+  .then(cities =&gt; {
+    console.log(`Cities in ${iso2}:`, cities.length);
+    console.log('Example:', cities[0]);
+  });</code></pre>
+          </div>
+          <div class="card" style="box-shadow:none; padding:12px; margin:0;">
+            <h3>Python (requests)</h3>
+            <pre><code>import requests
+
+url = "https://your-domain.com/data/cities/US.json"
+resp = requests.get(url)
+cities = resp.json()
+print("Cities in US:", len(cities))</code></pre>
+          </div>
+        </div>
+        <p style="margin-top:12px;">
+          For schema details and API-style paths, see the <a href="docs.html" class="link">Documentation</a>.
+        </p>
+      </div>
+
+      <!-- About & license -->
+      <div class="card full-width">
+        <h2>About &amp; License</h2>
+        <p>
+          This website provides a free, developer-friendly dataset of world countries, capitals and cities.
+          You can use it in web apps, mobile apps, data science projects, or teaching.
+        </p>
+        <p>
+          <strong>License:</strong> Check the original data source license for commercial use terms.
+          Attribution to this site is appreciated but not required.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    &copy; <span id="year"></span> World Location Dataset · Built for developers
+  </footer>
+
+  <script>
+    // Footer year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    const countrySelect = document.getElementById('countrySelect');
+    const citiesStatus = document.getElementById('citiesStatus');
+    const citiesTableWrapper = document.getElementById('citiesTableWrapper');
+    const citiesTableBody = document.querySelector('#citiesTable tbody');
+    const citiesCountInfo = document.getElementById('citiesCountInfo');
+    const downloadCountryBtnWrapper = document.getElementById('downloadCountryBtnWrapper');
+    const downloadCountryBtn = document.getElementById('downloadCountryBtn');
+    const citySearchWrapper = document.getElementById('citySearchWrapper');
+    const citySearch = document.getElementById('citySearch');
+    const searchStatus = document.getElementById('searchStatus');
+    const countryStats = document.getElementById('countryStats');
+    const topCitiesWrapper = document.getElementById('topCitiesWrapper');
+    const topCitiesTableBody = document.querySelector('#topCitiesTable tbody');
+
+    let countriesData = [];
+    let currentCountryIso2 = "";
+    let currentCities = [];
+
+    function formatNumber(n) {
+      if (n === null || n === undefined || n === "") return "-";
+      return n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    }
+
+    function iso2ToFlagEmoji(iso2) {
+      if (!iso2 || iso2.length !== 2) return "";
+      const codePoints = iso2.toUpperCase().split("").map(c => 0x1F1E6 + (c.charCodeAt(0) - 65));
+      return String.fromCodePoint(...codePoints);
+    }
+
+    function loadCountries() {
+      citiesStatus.textContent = "Loading countries…";
+
+      fetch('data/countries.json')
+        .then(r => r.json())
+        .then(countries => {
+          countriesData = countries || [];
+
+          countrySelect.innerHTML = "";
+          const defaultOption = document.createElement('option');
+          defaultOption.value = "";
+          defaultOption.textContent = "Select a country…";
+          countrySelect.appendChild(defaultOption);
+
+          countriesData
+            .slice()
+            .sort((a, b) => a.name.localeCompare(b.name))
+            .forEach(c => {
+              const opt = document.createElement('option');
+              const iso2 = (c.iso2 || "").toUpperCase();
+              const flag = iso2 ? iso2ToFlagEmoji(iso2) + " " : "";
+              opt.value = iso2;
+              opt.textContent = flag + c.name + (iso2 ? " (" + iso2 + ")" : "");
+              countrySelect.appendChild(opt);
+            });
+
+          citiesStatus.textContent = "Tip: select a country to view its cities.";
+        })
+        .catch(err => {
+          console.error(err);
+          citiesStatus.textContent = "Error loading countries.json. Please check the data/countries.json file.";
+        });
+    }
+
+    function renderCityTable(list) {
+      citiesTableBody.innerHTML = "";
+      list
+        .slice()
+        .sort((a, b) => (a.name || "").localeCompare(b.name || ""))
+        .forEach(city => {
+          const tr = document.createElement('tr');
+
+          const tdName = document.createElement('td');
+          tdName.textContent = city.name || "-";
+
+          const tdState = document.createElement('td');
+          tdState.textContent = city.state || "-";
+
+          const tdCapital = document.createElement('td');
+          const span = document.createElement('span');
+          if (city.is_capital) {
+            span.textContent = "Capital";
+            span.className = "pill";
+          } else {
+            span.textContent = "No";
+            span.className = "pill pill-danger";
+          }
+          tdCapital.appendChild(span);
+
+          const tdPop = document.createElement('td');
+          tdPop.textContent = formatNumber(city.population);
+
+          tr.appendChild(tdName);
+          tr.appendChild(tdState);
+          tr.appendChild(tdCapital);
+          tr.appendChild(tdPop);
+
+          citiesTableBody.appendChild(tr);
+        });
+    }
+
+    function summarizeCountry(fullList, iso2) {
+      if (!fullList || !fullList.length) {
+        countryStats.textContent = "";
+        topCitiesWrapper.style.display = "none";
+        return;
+      }
+
+      const total = fullList.length;
+      const capitals = fullList.filter(c => c.is_capital);
+      const withPop = fullList.filter(c => c.population && c.population > 0);
+
+      let topCity = null;
+      if (withPop.length) {
+        topCity = withPop.reduce((max, c) => (c.population > max.population ? c : max), withPop[0]);
+      }
+
+      let text = `${total} cities in ${iso2}.`;
+      text += capitals.length ? ` ${capitals.length} of them are marked as capitals/admin centers.` : " No cities are marked as capitals in this dataset.";
+      if (topCity) {
+        text += ` Largest city by population: ${topCity.name}` +
+                (topCity.state ? `, ${topCity.state}` : "") +
+                ` (${formatNumber(topCity.population)}).`;
+      }
+      countryStats.textContent = text;
+
+      // Top 10 by population
+      const top10 = withPop
+        .slice()
+        .sort((a, b) => b.population - a.population)
+        .slice(0, 10);
+
+      topCitiesTableBody.innerHTML = "";
+      if (top10.length) {
+        top10.forEach(city => {
+          const tr = document.createElement('tr');
+
+          const tdName = document.createElement('td');
+          tdName.textContent = city.name || "-";
+
+          const tdState = document.createElement('td');
+          tdState.textContent = city.state || "-";
+
+          const tdPop = document.createElement('td');
+          tdPop.textContent = formatNumber(city.population);
+
+          tr.appendChild(tdName);
+          tr.appendChild(tdState);
+          tr.appendChild(tdPop);
+          topCitiesTableBody.appendChild(tr);
+        });
+        topCitiesWrapper.style.display = "block";
+      } else {
+        topCitiesWrapper.style.display = "none";
+      }
+    }
+
+    function applyCityFilter() {
+      if (!currentCities.length) {
+        citiesTableWrapper.style.display = "none";
+        searchStatus.textContent = "";
+        citiesCountInfo.textContent = "";
+        return;
+      }
+
+      const q = (citySearch.value || "").trim().toLowerCase();
+      let list = currentCities;
+
+      if (q) {
+        list = currentCities.filter(c =>
+          (c.name || "").toLowerCase().includes(q) ||
+          (c.state || "").toLowerCase().includes(q)
+        );
+        searchStatus.textContent = `${list.length} of ${currentCities.length} cities match "${q}".`;
+      } else {
+        searchStatus.textContent = "";
+      }
+
+      if (!list.length) {
+        citiesTableWrapper.style.display = "none";
+        citiesCountInfo.textContent = `0 cities shown for ${currentCountryIso2} (filtered).`;
+      } else {
+        renderCityTable(list);
+        citiesTableWrapper.style.display = "block";
+        citiesCountInfo.textContent = `${list.length} cities shown for ${currentCountryIso2}` + (q ? " (filtered)." : ".");
+      }
+    }
+
+    function renderCitiesForCountry(iso2) {
+      currentCountryIso2 = iso2 || "";
+      currentCities = [];
+      citySearch.value = "";
+      searchStatus.textContent = "";
+      citiesTableWrapper.style.display = "none";
+      topCitiesWrapper.style.display = "none";
+      countryStats.textContent = "";
+      citiesCountInfo.textContent = "";
+      downloadCountryBtnWrapper.style.display = "none";
+
+      if (!iso2) {
+        citiesStatus.textContent = "Select a country to view its cities.";
+        citySearchWrapper.style.display = "none";
+        return;
+      }
+
+      const upperIso = iso2.toUpperCase();
+      const url = "data/cities/" + upperIso + ".json";
+
+      console.log("Loading city file:", url);
+      citiesStatus.textContent = "Loading cities for " + upperIso + "…";
+
+      fetch(url)
+        .then(r => {
+          if (!r.ok) {
+            throw new Error("File not found: " + url);
+          }
+          return r.json();
+        })
+        .then(cities => {
+          if (!Array.isArray(cities) || !cities.length) {
+            citiesStatus.textContent = "No cities found for this country in the current dataset.";
+            citySearchWrapper.style.display = "none";
+            return;
+          }
+
+          currentCities = cities;
+          citySearchWrapper.style.display = "block";
+
+          // Show download button for this country's cities
+          downloadCountryBtnWrapper.style.display = "inline-block";
+          downloadCountryBtn.href = url;
+
+          applyCityFilter();            // renders table + count
+          summarizeCountry(cities, upperIso); // stats + top10
+          citiesStatus.textContent = "";
+        })
+        .catch(err => {
+          console.error(err);
+          citiesTableWrapper.style.display = "none";
+          citySearchWrapper.style.display = "none";
+          topCitiesWrapper.style.display = "none";
+          countryStats.textContent = "";
+          citiesStatus.textContent = "Could not load " + url + ". Make sure this file exists.";
+        });
+    }
+
+    countrySelect.addEventListener('change', function () {
+      const value = this.value;
+      renderCitiesForCountry(value);
+    });
+
+    citySearch.addEventListener('input', function () {
+      applyCityFilter();
+    });
+
+    loadCountries();
+  </script>
+</body>
+</html>
